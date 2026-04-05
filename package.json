@@ -1,0 +1,26 @@
+{
+  "name": "memory-bank",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Persistent memory bank for pi — recall-only, no auto-injection",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["extensions/memory"]
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-agent-core": "^0.62.0",
+    "@mariozechner/pi-ai": "^0.62.0",
+    "@mariozechner/pi-coding-agent": "^0.62.0",
+    "@mariozechner/pi-tui": "^0.62.0",
+    "@sinclair/typebox": "^0.34.48",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  },
+  "dependencies": {
+    "minisearch": "^7.2.0"
+  }
+}
