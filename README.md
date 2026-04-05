@@ -5,7 +5,7 @@ Persistent memory bank for [pi](https://github.com/mariozechner/pi). Stores acti
 ## Install
 
 ```bash
-pi install ~/Code/memory-bank
+pi install git:github.com/ashwin-shopify/pi-memory-bank
 ```
 
 ## How it works
